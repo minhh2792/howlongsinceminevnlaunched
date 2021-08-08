@@ -29,7 +29,10 @@ let startedYear = countUpDate.getFullYear();
     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    let kiwi = "1";
+    let accDay = days - kiwi;
 
-    document.getElementById("result").innerHTML = "MineVN đã vận hành được " + accYear + " năm " + accMonth + " tháng " + days + " ngày " + hours + " giờ " + minutes + " phút và " + seconds + " giây";
+    document.getElementById("result").innerHTML = accYear + " năm " + accMonth + " tháng " + accDay + " ngày " + hours + " giờ " + minutes + " phút và " + seconds + " giây";
     
     }, 1000)
