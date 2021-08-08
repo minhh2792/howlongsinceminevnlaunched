@@ -25,7 +25,7 @@ let startedYear = countUpDate.getFullYear();
 
     let distance = now - countUpDate.getTime();
 
-    let days = Math.floor(distance / (1000 * 60 * 60 * 24)) % 60;
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24)) % 30;
     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
