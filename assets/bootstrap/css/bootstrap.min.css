@@ -11156,3 +11156,16 @@ hr {
     border-style: solid;
     opacity: 1
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(81, 81, 81);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(66, 66, 66, .35);
+}
