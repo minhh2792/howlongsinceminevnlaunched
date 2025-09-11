@@ -1,4 +1,4 @@
-let from = new Date("Sep 6, 2015 19:00:00")
+let from = new Date("Sep 6, 2015 16:00:00")
 
 function printStartedSince() {
     // bruh
